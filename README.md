@@ -13,4 +13,4 @@ This is a template for writing a [Softcover](http://www.softcover.io/) book in H
 \newunicodechar{ű}{\H{u}}
 ```
 
-The `\renewcommand` changes the word used for chapters, while the `\newunicodechar` commands define characters that LaTeX doesn't know how to process natively. When building PDFs, care should be taken to create a new `newunicodechar` line for every character that "disappears" (i.e., that LaTeX doesn't understand).
+The `\renewcommand` changes the word used for chapters, while the `\newunicodechar` commands define characters that LaTeX doesn't know how to process natively. When building PDFs, care should be taken to create a new `\newunicodechar` line for every character that "disappears" (i.e., that LaTeX doesn't understand).
