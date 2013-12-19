@@ -1,0 +1,20 @@
+\documentclass[14pt]{extbook}
+\usepackage{softcover}
+\VerbatimFootnotes % Allows verbatim text in footnotes
+\title{A könyv címe}
+\subtitle{Alcím - itt lesz az alcím}
+\author{Árvíztűrő fúrógép}
+\date{}
+
+\begin{document}
+
+\includepdf{images/cover.pdf}
+\frontmatter
+\maketitle
+\tableofcontents
+\include{generated_polytex/preface}
+\mainmatter
+\include{generated_polytex/a_chapter}
+\include{generated_polytex/another_chapter}
+\include{generated_polytex/yet_another_chapter}
+\end{document}

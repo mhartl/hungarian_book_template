@@ -1,0 +1,12 @@
+---
+slug: hungarian_book_template
+filename: hungarian_book_template
+title: A könyv címe
+subtitle: Alcím - itt lesz az alcím
+description: Change me.
+author: Árvíztűrő fúrógép
+copyright: 2013
+uuid: efa8946b-000a-44cf-ba5e-ba6d6c84a80d
+cover: images/cover.png
+pdf_preview_page_range: 1..30
+epub_mobi_preview_chapter_range: 0..1
